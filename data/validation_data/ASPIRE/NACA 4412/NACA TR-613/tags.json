@@ -1,0 +1,34 @@
+{
+  "flow_conditions" : {
+    "reynolds" : "1.8e6",
+    "mach" : "0.059",
+    "freestream": "",
+    "alpha": "-20 - 30"
+  },
+  "uncertainty" : {
+    "x" : "",
+    "z" : "",
+    "cp" : "",
+    "alpha": "",
+    "mach": ""
+  }, 
+  "airfoil": {
+    "name": "NACA 4412",
+    "camber": "Y",
+    "supercritical": "N",
+    "application": "General"
+  },
+  "source": {
+    "name": "NACA TR-613",
+    "author": "Pinkerton, R.",
+    "year": "1936",
+    "page": "79", 
+    "type": "graph",
+    "url": "https://ntrs.nasa.gov/api/citations/19930091689/downloads/19930091689.pdf"
+  },
+  "meta" : {
+    "num_cases": "15",
+    "num_remaining": "119", 
+    "notes": "M obtained from air properties at given tank pressures, only 1.8e6 digitized" 
+  }
+}

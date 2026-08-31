@@ -1,0 +1,13 @@
+LOAD {{ case.airfoil_name }}.dat
+PANE
+OPER
+VISC {{ case.reynolds }}
+MACH {{ case.mach }}
+PACC
+xfoil_polar.txt
+
+ITER 200
+ALFA {{ case.aoa }}
+CPWR xfoil_cp.txt
+DUMP xfoil_dump.txt
+QUIT

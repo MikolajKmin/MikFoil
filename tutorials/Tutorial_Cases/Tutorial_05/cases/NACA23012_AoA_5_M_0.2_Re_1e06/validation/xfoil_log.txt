@@ -1,0 +1,183 @@
+At line 135 of file ../src/userio.f (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+ ===================================================
+  XFOIL Version 6.99
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ Labeled airfoil file.  Name:  NACA23012                                       
+
+ Number of input coordinate points:  79
+ Counterclockwise ordering
+ Max thickness =     0.119954  at x =   0.287
+ Max camber    =     0.014598  at x =   0.145
+
+  LE  x,y  =  -0.00065   0.00448  |   Chord =   1.00066
+  TE  x,y  =   1.00000   0.00000  |
+
+ Current airfoil nodes set from buffer airfoil nodes (  79 )
+
+ XFOIL   c>  
+ Sharp trailing edge
+
+ Paneling parameters used...
+   Number of panel nodes       160
+   Panel bunching parameter    1.000
+   TE/LE panel density ratio   0.150
+   Refined-area/LE panel density ratio    0.200
+   Top    side refined area x/c limits  1.000 1.000
+   Bottom side refined area x/c limits  1.000 1.000
+
+ XFOIL   c>  
+.OPERi   c>  
+ M  =    0.0000
+ Re =   1000000
+
+.OPERv   c>  
+ Sonic Cp =    -16.31      Sonic Q/Qinf =     4.583
+
+
+.OPERv   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar: NACA23012                                       
+
+Enter  polar save filename  OR  <return> for no file   s>  
+ Old polar save file read in ...
+  
+       XFOIL                                                    Version 6.99
+  
+ Calculated polar for: NACA23012                                       
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.200     Re =     1.000 e 6     Ncrit =   9.000
+  
+   alpha    CL        CD       CDp       CM     Top_Xtr  Bot_Xtr
+  ------ -------- --------- --------- -------- -------- --------
+   5.000   0.7301   0.00900   0.00358  -0.0109   0.1963   0.9850
+
+ Old polar save file available for appending
+
+Enter  polar dump filename  OR  <return> for no file   s>  
+ Polar dump file will NOT be written
+
+ Polar accumulation enabled
+
+.OPERva   c>  
+.OPERva   c>   Calculating unit vorticity distributions ...
+ Calculating wake trajectory ...
+ Calculating source influence matrix ...
+
+ Solving BL system ...
+
+ Initializing BL ...
+    side            1  ...
+ MRCHUE: Inverse mode at  35     Hk =   5.361
+ MRCHUE: Inverse mode at  36     Hk =   7.062
+ MRCHUE: Inverse mode at  37     Hk =   7.605
+ MRCHUE: Inverse mode at  38     Hk =   2.500
+ MRCHUE: Inverse mode at  88     Hk =   2.500
+ MRCHUE: Inverse mode at  89     Hk =   2.500
+    side            2  ...
+ MRCHUE: Inverse mode at  65     Hk =   4.072
+ MRCHUE: Inverse mode at  66     Hk =   4.816
+ MRCHUE: Inverse mode at  67     Hk =   5.540
+ MRCHUE: Inverse mode at  68     Hk =   6.239
+ MRCHUE: Inverse mode at  69     Hk =   6.906
+ MRCHUE: Inverse mode at  70     Hk =   7.524
+ MRCHUE: Inverse mode at  71     Hk =   8.068
+ MRCHUE: Inverse mode at  72     Hk =   7.120
+ MRCHUE: Inverse mode at  73     Hk =   6.039
+
+ Side 1  free  transition at x/c =  0.1730   37
+ Side 2  free  transition at x/c =  0.9887   72
+
+   1   rms: 0.1989E+00   max: 0.1172E+01   D at   76  2   RLX: 0.966
+       a =  5.000      CL =  0.7577
+      Cm = -0.0169     CD =  0.00867   =>   CDf =  0.00558    CDp =  0.00309
+
+ Side 1  free  transition at x/c =  0.1919   39
+ Side 2  free  transition at x/c =  0.9853   72
+ idif Ue xi dudx           1  0.13707757      2.46798992E-03   55.542191    
+ Uenew xinew           2  2.78750202E-03  5.01871109E-05
+
+   2   rms: 0.2843E-01   max: -.2136E+00   D at   76  2
+       a =  5.000      CL =  0.7310
+      Cm = -0.0110     CD =  0.00897   =>   CDf =  0.00557    CDp =  0.00340
+
+ Side 1  free  transition at x/c =  0.1972   38
+ Side 2  free  transition at x/c =  0.9850   73
+
+   3   rms: 0.4486E-02   max: -.4364E-01   D at    2  2
+       a =  5.000      CL =  0.7301
+      Cm = -0.0109     CD =  0.00900   =>   CDf =  0.00542    CDp =  0.00358
+
+ Side 1  free  transition at x/c =  0.1963   38
+ Side 2  free  transition at x/c =  0.9850   73
+
+   4   rms: 0.2246E-03   max: 0.2210E-02   D at    4  2
+       a =  5.000      CL =  0.7301
+      Cm = -0.0109     CD =  0.00900   =>   CDf =  0.00542    CDp =  0.00358
+
+ Side 1  free  transition at x/c =  0.1963   38
+ Side 2  free  transition at x/c =  0.9850   73
+
+   5   rms: 0.5605E-06   max: -.5887E-05   D at   38  1
+       a =  5.000      CL =  0.7301
+      Cm = -0.0109     CD =  0.00900   =>   CDf =  0.00542    CDp =  0.00358
+ plradd ia,ip,cpol            2          87  4.66093943E-02
+
+ Point added to stored polar  1
+ Point written to save file  xfoil_polar.txt                                 
+ Dump file unspecified or not available
+
+.OPERva   c>  
+.OPERva   c>  
+.OPERva   c>   QUIT command not recognized.  Type a "?" for list
+
+.OPERva   c>  

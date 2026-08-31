@@ -1,0 +1,27 @@
+batch_name: Airfoil_Comparison
+mesh_config:
+  fineness: 1.5
+su2_config: default
+cases:
+- airfoil: NACA0012
+  aoa: 2.0
+  mach: 0.15
+  reynolds: 3000000.0
+  mesh_config:
+    first_layer_height: 1e-5
+  project_dir: Tutorial_Cases/Tutorial_05
+- airfoil: NACA23012
+  aoa: 5.0
+  mach: 0.2
+  reynolds: 1000000.0
+  mesh_config:
+    first_layer_height: 1e-5
+  project_dir: Tutorial_Cases/Tutorial_05
+- airfoil: NACA4412
+  aoa: 2.0
+  mach: 0.15
+  reynolds: 300000.0
+  mesh_config:
+    fineness: 2
+  su2_config: transition
+  project_dir: Tutorial_Cases/Tutorial_05

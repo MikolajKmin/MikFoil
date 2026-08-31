@@ -1,0 +1,12 @@
+success: true
+xfoil_converged: true
+execution_time: 292.4687805175781
+cl: 0.9862200204
+cd: 0.02154882203
+cm: 0.007824650467
+xfoil_cl: 1.0427
+xfoil_cd: 0.00857
+xfoil_cm: -0.0074
+mesh_number_of_cells: 48694
+mesh_min_angle: 51.42602009791865
+mesh_max_skewness: 0.6163577608265192
